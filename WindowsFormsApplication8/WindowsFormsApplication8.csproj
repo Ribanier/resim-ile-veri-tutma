@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3964D89-DB36-4496-8FC9-E9D6FB6D9AC3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication8</RootNamespace>
+    <AssemblyName>WindowsFormsApplication8</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ANASAYFA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ANASAYFA.Designer.cs">
+      <DependentUpon>ANASAYFA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COZME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COZME.Designer.cs">
+      <DependentUpon>COZME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullanicigiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullanicigiris.Designer.cs">
+      <DependentUpon>kullanicigiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullnicikayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullnicikayit.Designer.cs">
+      <DependentUpon>kullnicikayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profil.Designer.cs">
+      <DependentUpon>profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SIFRELEME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIFRELEME.Designer.cs">
+      <DependentUpon>SIFRELEME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sifremiunuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sifremiunuttum.Designer.cs">
+      <DependentUpon>sifremiunuttum.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ANASAYFA.resx">
+      <DependentUpon>ANASAYFA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COZME.resx">
+      <DependentUpon>COZME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullanicigiris.resx">
+      <DependentUpon>kullanicigiris.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullnicikayit.resx">
+      <DependentUpon>kullnicikayit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profil.resx">
+      <DependentUpon>profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SIFRELEME.resx">
+      <DependentUpon>SIFRELEME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sifremiunuttum.resx">
+      <DependentUpon>sifremiunuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spider.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piksel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1010piksel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resimsadasdasdasdasdsa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\coz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sifrele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\unlock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

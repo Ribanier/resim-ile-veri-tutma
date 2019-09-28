@@ -1,0 +1,430 @@
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.hashsifreleme_SHA1_.resources
+c:\users\spide\documents\visual studio 2013\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sezarsifreleme.resources
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.hashsifreleme_SHA1_.resources
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sezarsifreleme.resources
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreleme1.resources
+G:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+G:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+G:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\Yeni klasör\programlama\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+D:\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\şifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.hashsifreleme_SHA1_.resources
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sezarsifreleme.resources
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreleme1.resources
+D:\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.hashsifreleme_SHA1_.resources
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sezarsifreleme.resources
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreleme1.resources
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme1\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme2\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreli_metnin_sifresini_coz.resources
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicigiris.resources
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreli_metnin_sifresini_coz.resources
+C:\Users\spide\Desktop\şifreleme3\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreli_metnin_sifresini_coz.resources
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme4\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreli_metnin_sifresini_coz.resources
+C:\Users\spide\Desktop\şifreleme5\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifreli_metnin_sifresini_coz.resources
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme6\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.resimsifreleme.resources
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme9\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.atık.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.atık.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme10\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.atık.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+G:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.atık.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\SADIK-1081 proje\şifreleme11\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.atık.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme12\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+G:\SADIK-1081 proje\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme13\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+H:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+H:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+H:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\SADIK-1081 proje\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme14\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+E:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+E:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+E:\SADIK-1081 proje\şifreleme15\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+E:\SADIK-1081 proje\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\ogrenci\Desktop\şifreleme16\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme17\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme18\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+C:\Users\spide\Desktop\şifreleme19\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\şifreleme20\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\şifreleme20\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\şifreleme20\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\şifreleme20\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullnicikayit.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.profil.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
+D:\Developer Files\Projects\şifreleme20(piksel kodları uzerinde calısıyosun en son yyaptıgın proje bu\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
