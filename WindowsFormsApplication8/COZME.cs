@@ -383,7 +383,7 @@ namespace WindowsFormsApplication8
                                         #endregion
                                         //
 
-                                        richTextBox1.Text += qwer.ToString();
+                                        richTextBox1.Text += qwer;
                                     }
 
                                 }
