@@ -22,7 +22,7 @@ namespace WindowsFormsApplication8
         void baglan()
         {
             if (blnt.State == ConnectionState.Closed) { blnt.Open(); }
-            
+
         }
         string DosyaUzantisi;
         void sil()
@@ -213,7 +213,7 @@ namespace WindowsFormsApplication8
             else
                 button1.Enabled = false;
         }
-    
+
         private void richTextBox1_Click(object sender, EventArgs e)
         {
 
@@ -267,134 +267,140 @@ namespace WindowsFormsApplication8
                     richTextBox1.Enabled = true;
                     baglan();
                     string a = textBox4.Text;
-                    OleDbCommand cmd = new OleDbCommand("select isim from verikayit where isim ='" + a + "'", blnt);
-                    OleDbDataReader rd = cmd.ExecuteReader();
-                    if (!(rd.Read()))
+                    using (OleDbCommand cmd = new OleDbCommand("select isim from verikayit where isim =@isim", blnt))
                     {
-                        MessageBox.Show("Böyle bir kayıt bulunamadı lütfen kontrol ederek tekrar deneyiniz..." + blnt);
-                    }
+                        cmd.Parameters.Add("@isim", OleDbType.VarChar).Value = a;
+                        OleDbDataReader rd = cmd.ExecuteReader();
+                        if (rd.Read())
+                        {
+                            button1.Visible = false;
+                            button2.Visible = false;
+                            textBox4.Visible = false;
+                            label6.Visible = false;
+                            richTextBox1.Visible = true;
+                            System.Threading.Thread.Sleep(100);
+                            Bitmap bmp1 = new Bitmap(pictureBox1.Image);
+                            Bitmap bmp2 = new Bitmap(pictureBox3.Image);
+                            progressBar1.Maximum = bmp1.Height;
+                            for (int i = 0; i < bmp2.Height; i++)
+                            {                      //yükseklik y
 
-                    else
-                    {
-                        button1.Visible = false;
-                        button2.Visible = false;
-                        textBox4.Visible = false;
-                        label6.Visible = false;
-                        richTextBox1.Visible = true;
-                        System.Threading.Thread.Sleep(100);
-                        Bitmap bpm1 = new Bitmap(pictureBox1.Image);
-                        Bitmap bpm3 = new Bitmap(pictureBox3.Image);
-                        for (int i = 0; i < bpm3.Height; i++)
-                        {                      //yükseklik y
-                            progressBar1.Maximum = i + 1;
-                            progressBar1.Value = i;
-                            for (int j = 0; j < bpm3.Width; j++)
-                            {                    //genişlik x
-                                Color clr1 = bpm1.GetPixel(j, i);
-                                //satır sütun               x,y 
-                                Color clr2 = bpm3.GetPixel(j, i);
-                                if (!(clr1 == clr2))//iki pikselin rengini kontrol ettik
-                                {
-                                //    OleDbCommand cnd = new OleDbCommand("select veri from verikayit where satir = '" + j.ToString() + "' and sutun ='" + i.ToString() + "' and isim = '" + a + "'", blnt);
-
-                                    OleDbCommand cnd = new OleDbCommand("select veri from verikayit where satir = @satir and sutun = @sutun and isim = @isim", blnt);
-                                    cnd.Parameters.Add("@satir", OleDbType.VarChar).Value=j;
-                                    cnd.Parameters.Add("@sutun", OleDbType.VarChar).Value = i;
-                                    cnd.Parameters.Add("@isim", OleDbType.VarChar).Value =a;
-                                  /*  cnd.Parameters.AddWithValue("@satir", j);
-                                    cnd.Parameters.AddWithValue("@sutun", i);
-                                    cnd.Parameters.AddWithValue("@isim", a);*/
-                                    OleDbDataReader dr = cnd.ExecuteReader();
-                                    if(dr.Read())
+                                (progressBar1.Value)++;
+                                for (int j = 0; j < bmp2.Width; j++)
+                                {                    //genişlik x
+                                    Color clr1 = bmp1.GetPixel(j, i);
+                                    //satır sütun               x,y 
+                                    Color clr2 = bmp2.GetPixel(j, i);
+                                    if (clr1 != clr2)//iki pikselin rengini kontrol ettik
                                     {
-                                        string asdf =dr["veri"].ToString();
-                                        string qwer = "";
+                                        //OleDbCommand cnd = new OleDbCommand("select veri from verikayit where satir = '" + j.ToString() + "' and sutun ='" + i.ToString() + "' and isim = '" + a + "'", blnt);
+                                        using (OleDbCommand cnd = new OleDbCommand(@"select veri from verikayit where 
+                                           satir = @satir and 
+                                               sutun = @sutun and 
+                                                   isim = @isim", blnt))
+                                        {
+                                            cnd.Parameters.Add("@satir", OleDbType.VarChar).Value = j;
+                                            cnd.Parameters.Add("@sutun", OleDbType.VarChar).Value = i;
+                                            cnd.Parameters.Add("@isim", OleDbType.VarChar).Value = a;
+                                            /*  cnd.Parameters.AddWithValue("@satir", j);
+                                              cnd.Parameters.AddWithValue("@sutun", i);
+                                              cnd.Parameters.AddWithValue("@isim", a);*/
+                                            var result = (string)cnd.ExecuteScalar();//veri cekme
+                                            string lastresult = "";
 
-                                        //
-                                        #region sifrecozme
-                                        if (asdf == "Z") qwer = "q";
-                                        else if (asdf == "X") qwer = "w";
-                                        else if (asdf == "C") qwer = "e";
-                                        else if (asdf == "V") qwer = "r";
-                                        else if (asdf == "B") qwer = "t";
-                                        else if (asdf == "N") qwer = "y";
-                                        else if (asdf == "M") qwer = "u";
-                                        else if (asdf == "Ö") qwer = "ı";
-                                        else if (asdf == "Ç") qwer = "o";
-                                        else if (asdf == "A") qwer = "p";
-                                        else if (asdf == "S") qwer = "ğ";
-                                        else if (asdf == "D") qwer = "ü";
-                                        else if (asdf == "F") qwer = "a";
-                                        else if (asdf == "G") qwer = "s";
-                                        else if (asdf == "H") qwer = "d";
-                                        else if (asdf == "J") qwer = "f";
-                                        else if (asdf == "k") qwer = "g";
-                                        else if (asdf == "l") qwer = "h";
-                                        else if (asdf == "ş") qwer = "j";
-                                        else if (asdf == "i") qwer = "k";
-                                        else if (asdf == "q") qwer = "l";
-                                        else if (asdf == "w") qwer = "ş";
-                                        else if (asdf == "e") qwer = "i";
-                                        else if (asdf == "r") qwer = "z";
-                                        else if (asdf == "t") qwer = "x";
-                                        else if (asdf == "y") qwer = "c";
-                                        else if (asdf == "u") qwer = "v";
-                                        else if (asdf == "ı") qwer = "b";
-                                        else if (asdf == "o") qwer = "n";
-                                        else if (asdf == "p") qwer = "m";
-                                        else if (asdf == "ğ") qwer = "ö";
-                                        else if (asdf == "ü") qwer = "ç";
-                                        else if (asdf == "z") qwer = "Q";
-                                        else if (asdf == "x") qwer = "W";
-                                        else if (asdf == "c") qwer = "E";
-                                        else if (asdf == "v") qwer = "R";
-                                        else if (asdf == "b") qwer = "T";
-                                        else if (asdf == "n") qwer = "Y";
-                                        else if (asdf == "m") qwer = "U";
-                                        else if (asdf == "ö") qwer = "I";
-                                        else if (asdf == "ç") qwer = "O";
-                                        else if (asdf == "a") qwer = "P";
-                                        else if (asdf == "s") qwer = "Ğ";
-                                        else if (asdf == "d") qwer = "Ü";
-                                        else if (asdf == "f") qwer = "A";
-                                        else if (asdf == "g") qwer = "S";
-                                        else if (asdf == "h") qwer = "D";
-                                        else if (asdf == "j") qwer = "F";
-                                        else if (asdf == "K") qwer = "G";
-                                        else if (asdf == "L") qwer = "H";
-                                        else if (asdf == "Ş") qwer = "J";
-                                        else if (asdf == "İ") qwer = "K";
-                                        else if (asdf == "Q") qwer = "L";
-                                        else if (asdf == "W") qwer = "Ş";
-                                        else if (asdf == "E") qwer = "İ";
-                                        else if (asdf == "R") qwer = "Z";
-                                        else if (asdf == "T") qwer = "X";
-                                        else if (asdf == "Y") qwer = "C";
-                                        else if (asdf == "U") qwer = "V";
-                                        else if (asdf == "I") qwer = "B";
-                                        else if (asdf == "O") qwer = "N";
-                                        else if (asdf == "P") qwer = "M";
-                                        else if (asdf == "Ğ") qwer = "Ö";
-                                        else if (asdf == "Ü") qwer = "Ç";                                   
-                                        else if (asdf == ".") qwer = ",";
-                                        else if (asdf == ",") qwer = ".";
-                                        else if (asdf == "<") qwer = ">";
-                                        else if (asdf == ">") qwer = "<";
-                                        #endregion
-                                        //
+                                            //
+                                            #region sifrecozme
+                                            if (result == "Z") lastresult = "q";
+                                            else if (result == "X") lastresult = "w";
+                                            else if (result == "C") lastresult = "e";
+                                            else if (result == "V") lastresult = "r";
+                                            else if (result == "B") lastresult = "t";
+                                            else if (result == "N") lastresult = "y";
+                                            else if (result == "M") lastresult = "u";
+                                            else if (result == "Ö") lastresult = "ı";
+                                            else if (result == "Ç") lastresult = "o";
+                                            else if (result == "A") lastresult = "p";
+                                            else if (result == "S") lastresult = "ğ";
+                                            else if (result == "D") lastresult = "ü";
+                                            else if (result == "F") lastresult = "a";
+                                            else if (result == "G") lastresult = "s";
+                                            else if (result == "H") lastresult = "d";
+                                            else if (result == "J") lastresult = "f";
+                                            else if (result == "k") lastresult = "g";
+                                            else if (result == "l") lastresult = "h";
+                                            else if (result == "ş") lastresult = "j";
+                                            else if (result == "i") lastresult = "k";
+                                            else if (result == "q") lastresult = "l";
+                                            else if (result == "w") lastresult = "ş";
+                                            else if (result == "e") lastresult = "i";
+                                            else if (result == "r") lastresult = "z";
+                                            else if (result == "t") lastresult = "x";
+                                            else if (result == "y") lastresult = "c";
+                                            else if (result == "u") lastresult = "v";
+                                            else if (result == "ı") lastresult = "b";
+                                            else if (result == "o") lastresult = "n";
+                                            else if (result == "p") lastresult = "m";
+                                            else if (result == "ğ") lastresult = "ö";
+                                            else if (result == "ü") lastresult = "ç";
+                                            else if (result == "z") lastresult = "Q";
+                                            else if (result == "x") lastresult = "W";
+                                            else if (result == "c") lastresult = "E";
+                                            else if (result == "v") lastresult = "R";
+                                            else if (result == "b") lastresult = "T";
+                                            else if (result == "n") lastresult = "Y";
+                                            else if (result == "m") lastresult = "U";
+                                            else if (result == "ö") lastresult = "I";
+                                            else if (result == "ç") lastresult = "O";
+                                            else if (result == "a") lastresult = "P";
+                                            else if (result == "s") lastresult = "Ğ";
+                                            else if (result == "d") lastresult = "Ü";
+                                            else if (result == "f") lastresult = "A";
+                                            else if (result == "g") lastresult = "S";
+                                            else if (result == "h") lastresult = "D";
+                                            else if (result == "j") lastresult = "F";
+                                            else if (result == "K") lastresult = "G";
+                                            else if (result == "L") lastresult = "H";
+                                            else if (result == "Ş") lastresult = "J";
+                                            else if (result == "İ") lastresult = "K";
+                                            else if (result == "Q") lastresult = "L";
+                                            else if (result == "W") lastresult = "Ş";
+                                            else if (result == "E") lastresult = "İ";
+                                            else if (result == "R") lastresult = "Z";
+                                            else if (result == "T") lastresult = "X";
+                                            else if (result == "Y") lastresult = "C";
+                                            else if (result == "U") lastresult = "V";
+                                            else if (result == "I") lastresult = "B";
+                                            else if (result == "O") lastresult = "N";
+                                            else if (result == "P") lastresult = "M";
+                                            else if (result == "Ğ") lastresult = "Ö";
+                                            else if (result == "Ü") lastresult = "Ç";
+                                            else if (result == ".") lastresult = ",";
+                                            else if (result == ",") lastresult = ".";
+                                            else if (result == "<") lastresult = ">";
+                                            else if (result == ">") lastresult = "<";
+                                            else lastresult = result;
+                                            #endregion
+                                            //
 
-                                        richTextBox1.Text += qwer;
+                                            richTextBox1.Text += lastresult;
+
+                                        }
+
                                     }
 
                                 }
 
                             }
+                            MessageBox.Show("Resminiz başarıyla cozumlendi");
+                            baglan();
 
+                            timer1.Stop();
                         }
-                        MessageBox.Show("Resminiz başarıyla cozumlendi");
-                        baglan();
 
-                        timer1.Stop();
+                        else
+                        {
+                            MessageBox.Show("Böyle bir kayıt bulunamadı lütfen kontrol ederek tekrar deneyiniz..." + blnt);
+                        }
                     }
                 }
             }
