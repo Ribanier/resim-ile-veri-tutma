@@ -97,6 +97,7 @@
             this.textBox2.Text = "Şifre";
             this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // label2
             // 

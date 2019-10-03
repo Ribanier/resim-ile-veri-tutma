@@ -38,7 +38,10 @@ namespace WindowsFormsApplication8
             }
             else
             {
-                MessageBox.Show("kullanıcı girişi başarısız");
+                MessageBox.Show("Kullanıcı girişi başarısız bilgilerinizi kontrol ediniz.");textBox2.Clear();
+                if (textBox1.Text == null)
+                    textBox1.Focus();
+                else textBox1.Focus();
             }
 
         }
@@ -76,6 +79,7 @@ namespace WindowsFormsApplication8
             {
                 textBox2.PasswordChar = '\0';
             }
+           
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -149,7 +153,11 @@ namespace WindowsFormsApplication8
                 textBox2.PasswordChar = '\0';
             }
             else
-                textBox2.PasswordChar = '*';
+            {
+                textBox2.PasswordChar = '*'; label2.Visible = true;
+
+            }
+                
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -159,7 +167,8 @@ namespace WindowsFormsApplication8
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+                button1.PerformClick();
         }
 
         private void textBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
@@ -201,6 +210,12 @@ namespace WindowsFormsApplication8
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                button1.PerformClick();
         }
     }
 }

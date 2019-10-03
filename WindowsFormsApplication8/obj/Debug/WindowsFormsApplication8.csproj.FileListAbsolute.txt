@@ -442,3 +442,4 @@ D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\
 D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.SIFRELEME.resources
 D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.sifremiunuttum.resources
 D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
