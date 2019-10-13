@@ -66,6 +66,8 @@ namespace WindowsFormsApplication8
 
         private void kullanicigiris_Load(object sender, EventArgs e)
         {
+            pictureBox1.ImageLocation = "textbox.png";
+            pictureBox2.ImageLocation = "textbox.png";
             ToolTip tp = new ToolTip();
             tp.SetToolTip(this, "Konumlandırmak için tıklayın ve fareyi oynatın");
             pictureBox5.ImageLocation = "simgedrm.png";
@@ -101,19 +103,13 @@ namespace WindowsFormsApplication8
 
         }
 
-        int a = 0;
+      
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (a == 0)
-            {
-                textBox2.PasswordChar = '\0';
-                a = 1;
-            }
-            else
-            {
-                textBox2.PasswordChar = '*';
-                a = 0;
-            }
+           
+           if(textBox2.PasswordChar=='\0')
+                   textBox2.PasswordChar = '*';
+               else textBox2.PasswordChar = '\0';
         }
 
         private void textBox1_Click(object sender, EventArgs e)
