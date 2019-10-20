@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+using System.Data.SqlClient;
 using System.Net.Mail;
 using System.Net;
 using Microsoft.VisualBasic;
@@ -21,7 +21,7 @@ namespace WindowsFormsApplication8
         {
             InitializeComponent();
         }
-        OleDbConnection blnt = new OleDbConnection("provider=microsoft.ace.oledb.12.0; Data source =sifreleme.accdb");
+        SqlConnection blnt = new SqlConnection("Data Source=desktop-6crttdm;Initial Catalog=sifreleme;Integrated Security=True");
 
         void baglan()
         {
@@ -156,7 +156,7 @@ namespace WindowsFormsApplication8
                     z = Interaction.InputBox(textBox1.Text + " ADRESİNE KOD GÖNDERİLDİ KODU GİRİNİZ", "ONAY KODU");
                     if (z == sayi.ToString())
                     {
-                        OleDbCommand cmd = new OleDbCommand("update kullaniciveri set eposta ='" + textBox1.Text + "'where eposta ='" + label4.Text + "'", blnt);
+                        SqlCommand cmd = new SqlCommand("update kullaniciveri set eposta ='" + textBox1.Text + "'where eposta ='" + label4.Text + "'", blnt);
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("E-Postanız başarılı bir şekilde değitirildi.");
                         label5.Visible = false;
@@ -173,7 +173,7 @@ namespace WindowsFormsApplication8
                             z = Interaction.InputBox(textBox1.Text + " ADRESİNE KOD GÖNDERİLDİ KODU GİRİNİZ", "ONAY KODU"); ;
                             if (z == sayi.ToString())
                             {
-                                OleDbCommand cmd = new OleDbCommand("update kullaniciveri set eposta ='" + textBox1.Text + "'where eposta ='" + label4.Text + "'", blnt);
+                                SqlCommand cmd = new SqlCommand("update kullaniciveri set eposta ='" + textBox1.Text + "'where eposta ='" + label4.Text + "'", blnt);
                                 cmd.ExecuteNonQuery();
                                 MessageBox.Show("E-Postanız başarılı bir şekilde değitirildi.");
                                 label5.Visible = false;
@@ -235,13 +235,13 @@ namespace WindowsFormsApplication8
                 try
                 {
                     baglan();
-                    OleDbCommand cnd = new OleDbCommand("select * from kullaniciveri where sifre = '" + textBox1.Text + "'", blnt);
-                    OleDbDataReader rd = cnd.ExecuteReader();
+                    SqlCommand cnd = new SqlCommand("select * from kullaniciveri where sifre = '" + textBox1.Text + "'", blnt);
+                    SqlDataReader rd = cnd.ExecuteReader();
                     if (rd.Read())
                     {
                         if (!(textBox2.Text.Length < 7))
                         {
-                            OleDbCommand cmd = new OleDbCommand("update kullaniciveri set sifre = '" + textBox2.Text + "'where sifre = '" + textBox1.Text + "'", blnt);
+                            SqlCommand cmd = new SqlCommand("update kullaniciveri set sifre = '" + textBox2.Text + "'where sifre = '" + textBox1.Text + "'", blnt);
                             cmd.ExecuteNonQuery();
                             MessageBox.Show("Şifreniz başarıyla değiştirildi");
                             button1.Visible = false;
@@ -329,7 +329,7 @@ namespace WindowsFormsApplication8
         {
             Move = 1;
             Mouse_X = e.X;
-            Mouse_Y = e.Y;   
+            Mouse_Y = e.Y;
         }
 
         private void profil_MouseUp(object sender, MouseEventArgs e)

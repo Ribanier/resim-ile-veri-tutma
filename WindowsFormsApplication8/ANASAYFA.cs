@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+
+using System.Data.SqlClient;
 namespace WindowsFormsApplication8
 {
     public partial class ANASAYFA : Form
@@ -16,15 +17,15 @@ namespace WindowsFormsApplication8
         {
             InitializeComponent();
         }
-        OleDbConnection blnt = new OleDbConnection("provider=microsoft.ace.oledb.12.0; Data source =sifreleme.accdb");
 
+        SqlConnection blnt = new SqlConnection("Data Source=desktop-6crttdm;Initial Catalog=sifreleme;Integrated Security=True");
         void baglan()
         {
             if (blnt.State == ConnectionState.Closed) { blnt.Open(); }
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SIFRELEME sfr = new SIFRELEME();         
+            SIFRELEME sfr = new SIFRELEME();
             sfr.Show();
             this.Hide();
             sfr.label2.Text = label3.Text;
@@ -38,7 +39,7 @@ namespace WindowsFormsApplication8
             this.Hide();
             sfr.label2.Text = label3.Text;
             sfr.pictureBox6.ImageLocation = "kullaniciresimleri/" + label3.Text + ".jpg";
-            
+
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -56,15 +57,15 @@ namespace WindowsFormsApplication8
             pictureBox2.ImageLocation = "simgedrm.png";
             ToolTip tp = new ToolTip();
             tp.SetToolTip(this, "Konumlandırmak için tıklayın ve fareyi oynatın");
-            
+
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             baglan();
             profil frm = new profil();
-            OleDbCommand cmd = new OleDbCommand("select eposta from kullaniciveri where ad='" + label3.Text + "'", blnt);
-            OleDbDataReader rd = cmd.ExecuteReader();
+            SqlCommand cmd = new SqlCommand("select eposta from kullaniciveri where ad='" + label3.Text + "'", blnt);
+            SqlDataReader rd = cmd.ExecuteReader();
             if (rd.Read())
             {
                 frm.label4.Text = rd["eposta"].ToString();
@@ -109,7 +110,7 @@ namespace WindowsFormsApplication8
         {
             Move = 1;
             Mouse_X = e.X;
-            Mouse_Y = e.Y;   
+            Mouse_Y = e.Y;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
