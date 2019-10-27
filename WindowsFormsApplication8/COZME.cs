@@ -37,9 +37,12 @@ namespace WindowsFormsApplication8
                         System.IO.File.Delete("resimlerim/" + textBox4.Text + DosyaUzantisi);
 
                     baglan();
-                    OleDbCommand cmd = new OleDbCommand("Delete * from verikayit where isim = '" + textBox4.Text + "'", blnt);
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Verileriniz başarıyla silindi.");
+                    using (OleDbCommand cmd = new OleDbCommand("Delete * from verikayit where isim = @isim", blnt))
+                    {
+                        cmd.Parameters.Add("@isim", OleDbType.VarChar).Value = textBox4.Text;
+                        MessageBox.Show("Verileriniz başarıyla silindi.");
+                    }
+
                 }
                 else
                     MessageBox.Show("Resminiz kayıtlardan silinmedi");
@@ -173,18 +176,22 @@ namespace WindowsFormsApplication8
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if (textBox4.Text != "")
-                sil();
+            sil();
             baglan();
             profil frm = new profil();
-            OleDbCommand cmd = new OleDbCommand("select eposta from kullaniciveri where ad='" + label2.Text + "'", blnt);
-            OleDbDataReader rd = cmd.ExecuteReader();
-            if (rd.Read())
+            using (OleDbCommand cmd = new OleDbCommand("select eposta from kullaniciveri where ad=@adi", blnt))
             {
-                frm.label4.Text = rd["eposta"].ToString();
+                cmd.Parameters.Add("@adi", OleDbType.VarChar).Value = label2.Text;
+                OleDbDataReader rd = cmd.ExecuteReader();
+                if (rd.Read())
+                {
+                    frm.label4.Text = rd["eposta"].ToString();
+                }
+                this.Hide();
+                frm.Show();
+                frm.label2.Text = label2.Text;
+
             }
-            this.Hide();
-            frm.Show();
-            frm.label2.Text = label2.Text;
 
         }
 

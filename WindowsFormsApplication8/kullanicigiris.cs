@@ -26,24 +26,28 @@ namespace WindowsFormsApplication8
         private void button1_Click(object sender, EventArgs e)
         {
             baglan();
-            OleDbCommand cmd = new OleDbCommand("select * from kullaniciveri where ad = '" + textBox1.Text + "' and sifre = '" + textBox2.Text + "'", blnt);
-            OleDbDataReader dr = cmd.ExecuteReader();
-            if (dr.Read())
+            using (OleDbCommand cmd = new OleDbCommand("select * from kullaniciveri where ad = @adi and sifre = @sifre", blnt))
             {
-                ANASAYFA rsm = new ANASAYFA();
-                rsm.Show();
-                this.Hide();
-                rsm.label3.Text = textBox1.Text;
-                rsm.pictureBox1.ImageLocation = "kullaniciresimleri/" + textBox1.Text + ".jpg";
-            }
-            else
-            {
-                MessageBox.Show("Kullanıcı girişi başarısız bilgilerinizi kontrol ediniz.");textBox2.Clear();
-                if (textBox1.Text == null)
-                    textBox1.Focus();
-                else textBox1.Focus();
-            }
+                cmd.Parameters.Add("@adi",OleDbType.VarChar).Value = textBox1.Text;
+                cmd.Parameters.Add("@sifre", OleDbType.VarChar).Value = textBox2.Text;
+                OleDbDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    ANASAYFA rsm = new ANASAYFA();
+                    rsm.Show();
+                    this.Hide();
+                    rsm.label3.Text = textBox1.Text;
+                    rsm.pictureBox1.ImageLocation = "kullaniciresimleri/" + textBox1.Text + ".jpg";
+                }
+                else
+                {
+                    MessageBox.Show("Kullanıcı girişi başarısız bilgilerinizi kontrol ediniz."); textBox2.Clear();
+                    if (textBox1.Text == null)
+                        textBox1.Focus();
+                    else textBox1.Focus();
+                }
 
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

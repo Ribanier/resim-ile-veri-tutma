@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using System.Data.SqlClient;
+using System.Data.OleDb;
 namespace WindowsFormsApplication8
 {
     public partial class ANASAYFA : Form
@@ -18,7 +18,7 @@ namespace WindowsFormsApplication8
             InitializeComponent();
         }
 
-        SqlConnection blnt = new SqlConnection("Data Source=desktop-6crttdm;Initial Catalog=sifreleme;Integrated Security=True");
+        OleDbConnection blnt = new OleDbConnection("provider=microsoft.ace.oledb.12.0; Data source =sifreleme.accdb");
         void baglan()
         {
             if (blnt.State == ConnectionState.Closed) { blnt.Open(); }
@@ -64,15 +64,18 @@ namespace WindowsFormsApplication8
         {
             baglan();
             profil frm = new profil();
-            SqlCommand cmd = new SqlCommand("select eposta from kullaniciveri where ad='" + label3.Text + "'", blnt);
-            SqlDataReader rd = cmd.ExecuteReader();
-            if (rd.Read())
+            using (OleDbCommand cmd = new OleDbCommand("select eposta from kullaniciveri where ad=@adi", blnt))
             {
-                frm.label4.Text = rd["eposta"].ToString();
+                cmd.Parameters.Add("adi", OleDbType.VarChar).Value = label3.Text;
+                OleDbDataReader rd = cmd.ExecuteReader();
+                if (rd.Read())
+                {
+                    frm.label4.Text = rd["eposta"].ToString();
+                }
+                this.Hide();
+                frm.Show();
+                frm.label2.Text = label3.Text;
             }
-            this.Hide();
-            frm.Show();
-            frm.label2.Text = label3.Text;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

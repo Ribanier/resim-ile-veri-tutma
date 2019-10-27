@@ -61,18 +61,20 @@ namespace WindowsFormsApplication8
 
         string k_adi, sifre1, sifre2, eposta;
 
+
         private void button1_Click(object sender, EventArgs e)
         {
-            if (label7.Visible == true && label6.Visible == true)
-                textBox1.Focus();
-            else if (label6.Visible == true)
-                textBox1.Focus();
-            else if (label7.Visible == true)
-                textBox4.Focus();
-            else
+            try
             {
-                try
+                if (label7.Visible == true && label6.Visible == true)
+                    textBox1.Focus();
+                else if (label6.Visible == true)
+                    textBox1.Focus();
+                else if (label7.Visible == true)
+                    textBox4.Focus();
+                else
                 {
+
                     k_adi = textBox1.Text;
                     sifre1 = textBox2.Text;
                     sifre2 = textBox3.Text;
@@ -83,34 +85,33 @@ namespace WindowsFormsApplication8
                         {
                             baglan();
                             string asdf = pictureBox7.ImageLocation;
-                            if (asdf == "user.png")
-                            {
-                                DialogResult a = MessageBox.Show("Resimsiz devam etmek istediğinize eminmisiniz?", "onay", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                                if (a == DialogResult.Yes)
-                                { 
-                                                                   
-                                    pictureBox7.Image.Save("kullaniciresimleri/" + textBox1.Text.ToString() + ".jpg");
-                                    OleDbCommand cmd = new OleDbCommand("INSERT INTO kullaniciveri VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox4.Text + "','" + "kullaniciresimleri/" + textBox1.Text.ToString() + ".jpg" + "')", blnt);
-                                    cmd.ExecuteNonQuery();
-                                    MessageBox.Show("Kayıt Başarılı Giriş Sayfasına Yönlendiriliyorsunuz...");
-                                    kullanicigiris frm = new kullanicigiris();
-                                    frm.Show();
-                                    this.Hide();
-                                }                             
 
-                            }
-                            else
+                            DialogResult a = asdf == "user.png" ? MessageBox.Show("Resimsiz devam etmek istediğinize eminmisiniz?", "onay", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) : DialogResult.OK;
+                            for (int i = 0; i < 1; i++)
                             {
-                                pictureBox7.Image.Save("kullaniciresimleri/" + textBox1.Text.ToString() + ".jpg");
-                                OleDbCommand cmd = new OleDbCommand("INSERT INTO kullaniciveri VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox4.Text + "','" + "kullaniciresimleri/" + textBox1.Text.ToString() + ".jpg" + "')", blnt);
-                                cmd.ExecuteNonQuery();
-                                MessageBox.Show("Kayıt Başarılı Giriş Sayfasına Yönlendiriliyorsunuz...");
-                                kullanicigiris frm = new kullanicigiris();
-                                frm.Show();
-                                this.Hide();
+                                if (a == DialogResult.No)
+                                    continue;
+                                if (a == DialogResult.OK || a == DialogResult.Yes)
+                                {
+
+                                    pictureBox7.Image.Save("kullaniciresimleri/" + textBox1.Text.ToString() + ".jpg");
+                                    using (OleDbCommand cmd = new OleDbCommand("INSERT INTO kullaniciveri(ad,sifre,eposta,resim) VALUES (@adi,@sifre,@eposta,@resim)", blnt))
+                                    {
+                                        cmd.Parameters.Add("@adi", OleDbType.VarChar).Value = textBox1.Text;
+                                        cmd.Parameters.Add("@sifre", OleDbType.VarChar).Value = textBox2.Text;
+                                        cmd.Parameters.Add("@eposta", OleDbType.VarChar).Value = textBox4.Text;
+                                        cmd.Parameters.Add("@resim", OleDbType.VarChar).Value = "kullaniciresimleri/" + k_adi + ".jpg ";
+                                        cmd.ExecuteNonQuery();
+                                        MessageBox.Show("Kayıt Başarılı Giriş Sayfasına Yönlendiriliyorsunuz...");
+                                        kullanicigiris frm = new kullanicigiris();
+                                        frm.Show();
+                                        this.Hide();
+                                    }
+
+                                }
                             }
-                                               
-                         
+
+
                         }
                         else if (!(sifre1 == sifre2) && sifre1.Length >= 8)
                             MessageBox.Show("Şifreler birbiriyle uyuşmuyor");
@@ -119,16 +120,13 @@ namespace WindowsFormsApplication8
                             MessageBox.Show("şifrenizin uzunluğu uygun değil");
 
                     }
-                    else
-                        MessageBox.Show("kodu kontrol ediniz");
-
-                }
-                catch (Exception hata)
-                {
-                    MessageBox.Show(hata.Message);
                 }
             }
-        }
+            catch (Exception hata)
+            {
+                MessageBox.Show(hata.Message);
+            }
+        }   
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
@@ -191,6 +189,17 @@ namespace WindowsFormsApplication8
         {
             try
             {
+               /* SmtpClient sc = new SmtpClient();
+                sc.Port = 587;
+                sc.Host = "smtp.gmail.com";
+                sc.EnableSsl = true;
+                sc.Credentials = new NetworkCredential("onaylandiniz@gmail.com", "onaylandiniz123");
+                MailMessage mail = new MailMessage();
+                mail.From = new MailAddress("onaylandiniz@gmail.com", "sifreleme");
+                mail.To.Add(textBox4.Text);           
+                mail.Subject = "E-Posta Konusu"; mail.IsBodyHtml = true; mail.Body = "E-Posta İçeriği";
+                mail.Body = sayi.ToString();           
+                sc.Send(mail);*/
                 sayi = rnd.Next(100000, 900000);
                 MailMessage msj = new MailMessage();
                 SmtpClient client = new SmtpClient();
