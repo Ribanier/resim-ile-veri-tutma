@@ -190,6 +190,7 @@ namespace WindowsFormsApplication8
         string DosyaUzantisi;
         private void button2_Click(object sender, EventArgs e)
         {
+            openFileDialog1.Filter = "png |*.png|jpg |*.jpg|jpeg|*.jpeg|ico |*.ico|icon |*.icon";  
             openFileDialog1.ShowDialog();
             string a = openFileDialog1.FileName;
             if (a != "openFileDialog1")
