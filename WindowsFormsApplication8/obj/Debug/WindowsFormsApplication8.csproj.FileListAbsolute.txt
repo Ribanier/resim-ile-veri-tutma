@@ -446,7 +446,6 @@ D:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
-E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.ANASAYFA.resources
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.COZME.resources
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.kullanicigiris.resources
