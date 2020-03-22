@@ -50,8 +50,8 @@ namespace WindowsFormsApplication8
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
-            string a = openFileDialog1.FileName;
+            openFileDialog1.Filter = "Image Files(*.BMP;*.JPG;*.JPEG;*.PNG;)|*.BMP;*.JPG;*.JPEG;*.PNG;";
+            openFileDialog1.ShowDialog(); string a = openFileDialog1.FileName;
             if (a != "openFileDialog1")
             {
                 pictureBox1.ImageLocation = a;

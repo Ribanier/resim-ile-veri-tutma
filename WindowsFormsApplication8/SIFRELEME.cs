@@ -28,10 +28,11 @@ namespace WindowsFormsApplication8
         Random rnd = new Random();
         private void button1_Click(object sender, EventArgs e)
         {
-            if (pictureBox1.Image != null)
+            try
             {
-                try
+                if (pictureBox1.Image != null)
                 {
+
                     if (textBox3.Text == "" || richTextBox1.Text == "")
                         MessageBox.Show("Boş alan bırakmayınız.");
                     else
@@ -166,12 +167,14 @@ namespace WindowsFormsApplication8
                                 r = Color.FromArgb(r.A, (byte)~r.R, (byte)~r.G, (byte)~r.B);
                                  bpm2.SetPixel(i, a, r);//aynı noktaya tekrar koy   */
                                     #endregion
-                                    OleDbCommand cmd1 = new OleDbCommand(@"INSERT INTO verikayit VALUES (satir,sutun,isim,veri)", blnt);
-                                    cmd1.Parameters.Add("@satir", OleDbType.VarChar).Value = a;
-                                    cmd1.Parameters.Add("@sutun", OleDbType.VarChar).Value = i;
-                                    cmd1.Parameters.Add("@isim", OleDbType.VarChar).Value = sifrelenecek_Ad;
-                                    cmd1.Parameters.Add("@veri", OleDbType.VarChar).Value = harfler[i];
-                                    cmd1.ExecuteNonQuery();
+                                    using (OleDbCommand cmd1 = new OleDbCommand(@"INSERT INTO verikayit VALUES (satir,sutun,isim,veri)", blnt))
+                                    {
+                                        cmd1.Parameters.Add("@satir", OleDbType.VarChar).Value = a;
+                                        cmd1.Parameters.Add("@sutun", OleDbType.VarChar).Value = i;
+                                        cmd1.Parameters.Add("@isim", OleDbType.VarChar).Value = sifrelenecek_Ad;
+                                        cmd1.Parameters.Add("@veri", OleDbType.VarChar).Value = harfler[i];
+                                        cmd1.ExecuteNonQuery();
+                                    }
                                 }
                                 pictureBox1.Image.Save("resimlerim/" + textBox3.Text + DosyaUzantisi);
                                 MessageBox.Show("Resim başarılı bir şekilde şifrelendi yeni bir şifreleme yapmak istiyorsanız yukarıdaki restart tuşuna basınız.");
@@ -185,15 +188,15 @@ namespace WindowsFormsApplication8
                         }
                     }
                 }
-
-                catch (Exception hata)
+                else
                 {
-                    MessageBox.Show(hata.Message);
+                    MessageBox.Show("Lütfen resim seçiniz");
                 }
+
             }
-            else
+            catch (Exception hata)
             {
-                MessageBox.Show("Lütfen resim seçiniz");
+                MessageBox.Show(hata.Message);
             }
         }
         string DosyaUzantisi;
