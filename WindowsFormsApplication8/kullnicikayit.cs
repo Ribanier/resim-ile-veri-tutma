@@ -518,24 +518,24 @@ namespace WindowsFormsApplication8
 
         private void kullnicikayit_MouseDown(object sender, MouseEventArgs e)
         {
-            Move = 1;
+            _Move = 1;
             Mouse_X = e.X;
             Mouse_Y = e.Y;   
         }
 
         private void kullnicikayit_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Move == 1)
+            if (_Move == 1)
             {
                 this.SetDesktopLocation(MousePosition.X - Mouse_X, MousePosition.Y - Mouse_Y);
             }
         }
-        int Move;
+        int _Move;
         int Mouse_X;
         int Mouse_Y;
         private void kullnicikayit_MouseUp(object sender, MouseEventArgs e)
         {
-            Move = 0;
+            _Move = 0;
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)

@@ -93,17 +93,17 @@ namespace WindowsFormsApplication8
         {
 
         }
-        int Move;
+        int _move;
         int Mouse_X;
         int Mouse_Y;
         private void ANASAYFA_MouseUp(object sender, MouseEventArgs e)
         {
-            Move = 0;
+            _move = 0;
         }
 
         private void ANASAYFA_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Move == 1)
+            if (_move == 1)
             {
                 this.SetDesktopLocation(MousePosition.X - Mouse_X, MousePosition.Y - Mouse_Y);
             }
@@ -111,7 +111,7 @@ namespace WindowsFormsApplication8
 
         private void ANASAYFA_MouseDown(object sender, MouseEventArgs e)
         {
-            Move = 1;
+            _move = 1;
             Mouse_X = e.X;
             Mouse_Y = e.Y;
         }

@@ -457,4 +457,3 @@ E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
 E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
-E:\GitHub\resmin-piksellerine-veri-sifreleme\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache

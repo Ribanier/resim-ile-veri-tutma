@@ -227,17 +227,17 @@ namespace WindowsFormsApplication8
         }
 
 
-        int Move;
+        int _Move;
         int Mouse_X;
         int Mouse_Y;
         private void COZME_MouseUp(object sender, MouseEventArgs e)
         {
-            Move = 0;
+            _Move = 0;
         }
 
         private void COZME_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Move == 1)
+            if (_Move == 1)
             {
                 this.SetDesktopLocation(MousePosition.X - Mouse_X, MousePosition.Y - Mouse_Y);
             }
@@ -245,7 +245,7 @@ namespace WindowsFormsApplication8
 
         private void COZME_MouseDown(object sender, MouseEventArgs e)
         {
-            Move = 1;
+            _Move = 1;
             Mouse_X = e.X;
             Mouse_Y = e.Y;
         }

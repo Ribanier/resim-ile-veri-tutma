@@ -325,19 +325,19 @@ namespace WindowsFormsApplication8
 
             label6.Text = "(Max. " + karakter + "/" + (karakter - richTextBox1.Text.Length).ToString() + ")";
         }
-        int Move;
+        int _Move;
         int Mouse_X;
         int Mouse_Y;
         private void SIFRELEME_MouseDown(object sender, MouseEventArgs e)
         {
-            Move = 1;
+            _Move = 1;
             Mouse_X = e.X;
             Mouse_Y = e.Y;
         }
 
         private void SIFRELEME_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Move == 1)
+            if (_Move == 1)
             {
                 this.SetDesktopLocation(MousePosition.X - Mouse_X, MousePosition.Y - Mouse_Y);
             }
@@ -345,7 +345,7 @@ namespace WindowsFormsApplication8
 
         private void SIFRELEME_MouseUp(object sender, MouseEventArgs e)
         {
-            Move = 0;
+            _Move = 0;
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)

@@ -95,14 +95,7 @@ namespace WindowsFormsApplication8
             frm.Show();
         }
 
-        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            sifremiunuttum frm = new sifremiunuttum();
-            this.Hide();
-            frm.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+               private void button3_Click(object sender, EventArgs e)
         {
 
         }
@@ -187,21 +180,21 @@ namespace WindowsFormsApplication8
 
         private void kullanicigiris_MouseDown(object sender, MouseEventArgs e)
         {
-            Move = 1;
+            _Move = 1;
             Mouse_X = e.X;
             Mouse_Y = e.Y;   
         }
-        int Move;
+        int _Move;
         int Mouse_X;
         int Mouse_Y;
         private void kullanicigiris_MouseUp(object sender, MouseEventArgs e)
         {
-            Move = 0;
+            _Move = 0;
         }
 
         private void kullanicigiris_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Move == 1)
+            if (_Move == 1)
             {
                 this.SetDesktopLocation(MousePosition.X - Mouse_X, MousePosition.Y - Mouse_Y);
             }
