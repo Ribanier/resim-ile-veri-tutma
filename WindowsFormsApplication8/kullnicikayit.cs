@@ -193,9 +193,9 @@ namespace WindowsFormsApplication8
                 sc.Port = 587;
                 sc.Host = "smtp.gmail.com";
                 sc.EnableSsl = true;
-                sc.Credentials = new NetworkCredential("onaylandiniz@gmail.com", "onaylandiniz123");
+                sc.Credentials = new NetworkCredential("onaylandiniz@gmail.com","****");
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("onaylandiniz@gmail.com", "sifreleme");
+                mail.From = new MailAddress("onaylandiniz@gmail.com", "****");
                 mail.To.Add(textBox4.Text);           
                 mail.Subject = "E-Posta Konusu"; mail.IsBodyHtml = true; mail.Body = "E-Posta İçeriği";
                 mail.Body = sayi.ToString();           
