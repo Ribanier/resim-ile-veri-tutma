@@ -40,7 +40,7 @@ namespace WindowsFormsApplication8
                     sayi = rnd.Next(100000, 900000);
                     MailMessage msj = new MailMessage();
                     SmtpClient client = new SmtpClient();
-                    client.Credentials = new System.Net.NetworkCredential("onaylandiniz@gmail.com", "49036396640sa");
+                    client.Credentials = new System.Net.NetworkCredential("onaylandiniz@gmail.com", "****");
                     client.Port = 587;
                     client.Host = " smtp.gmail.com";
                     client.EnableSsl = true;
